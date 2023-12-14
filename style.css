@@ -78,7 +78,7 @@
 }
 
 .project ul li a {
-    color: #2b4f9e;
+    color: #0000FF;
 }
 
 .contact {
@@ -106,6 +106,7 @@
 footer {
     height: 11vh;
     margin: 1rem;
+    display: none;
 }
 
 footer p {
