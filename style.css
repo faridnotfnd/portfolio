@@ -14,7 +14,7 @@
 
 .image {
     margin-top: 90px;
-    margin-left: 600px;
+    margin-left: 540px;
     border-bottom: 1px solid #000;
     max-width: 500px;
     max-height: 200px;
@@ -45,7 +45,7 @@
 
 .about {
     position: absolute;
-    margin-left: 600px;
+    margin-left: 540px;
     margin-top: 40px;
 }
 
@@ -61,7 +61,7 @@
 
 .project {
     position: absolute;
-    margin-left: 600px;
+    margin-left: 540px;
     margin-top: 200px;
 }
 
@@ -77,14 +77,10 @@
     margin-top: 5px;
 }
 
-.project ul li a {
-    color: #0000FF;
-}
-
 .contact {
     position: absolute;
-    margin-left: 600px;
-    margin-top: 370px;
+    margin-left: 540px;
+    margin-top: 385px;
 }
 
 .contact h2 {
