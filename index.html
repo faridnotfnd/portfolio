@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farid Sidik</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-    <link rel="shortcut icon" href="assets/image/favicon.ico">
+    <title>Farid Sidik - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="assets/image/profile.jpg" type="image/png">
+    <!-- Meta description (optional) -->
+    <meta name="description" content="Farid Sidik - Student of Software Engineering at SMKN 1 Banjar, passionate about technology and programming.">
 </head>
-
-<body>
-    <div class="header">
-        <div class="image">
-            <img src="assets/image/profile.jpg" alt="profile">
-            <h3>Farid Sidik</h3>
-            <p>student</p>
+<body class="flex items-center justify-center min-h-screen">
+    <div class="container max-w-lg mx-auto p-8">
+        <!-- Profile Section -->
+        <div class="flex items-center mb-6">
+            <img src="assets/image/profile.jpg" alt="profile" class="w-24 h-24 rounded-full mr-4">
+            <div>
+                <h3 class="text-2xl font-bold">Farid Sidik</h3>
+                <p class="text-gray-600">student</p>
+            </div>
+        </div>
+        <hr class="border-t border-gray-300 my-4">
+        
+        <!-- About Me Section -->
+        <div class="mb-6 text-left">
+            <h2 class="text-xl font-bold">About Me</h2>
+            <p class="text-gray-700 mt-2">I'm a student at SMKN 1 Banjar, majoring in Software Engineering. Passionate about technology, I explore programming, software development, and problem-solving. I believe in facing challenges as opportunities for growth, striving for excellence in both academics and personal development.</p>
+        </div>
+        
+        <!-- What I Have Done Section -->
+        <div class="mb-6 text-left">
+            <h2 class="text-xl font-bold">What I have done before?</h2>
+            <ul class="list-none mt-2 space-y-1">
+                <li><a href="assets/Project/Project1/index.html" target="_blank" class="text-blue-600 hover:underline">Made my first project at school.</a></li>
+                <li><a href="assets/Project/Project2/index.html" target="_blank" class="text-blue-600 hover:underline">Making my second project at school.</a></li>
+                <li><a href="https://freshmartf.netlify.app/" target="_blank" class="text-blue-600 hover:underline">Created a mini website for a fruit and vegetable shop.</a></li>
+                <li><a href="assets/Project/Facebook.pdf" target="_blank" class="text-blue-600 hover:underline">Made a wireframe of the Facebook application.</a></li>
+                <li><a href="assets/Project/FaridSidik.pdf" target="_blank" class="text-blue-600 hover:underline">Built a hotel booking wireframe.</a></li>
+                <li><a href="https://majalahdinding.000webhostapp.com/" target="_blank" class="text-blue-600 hover:underline">Creating a digital bulletin board.</a></li>
+            </ul>
+        </div>
+        
+        <!-- Reach Me Section -->
+        <div class="mb-6 flex justify-between items-center">
+            <h2 class="text-xl font-bold">Reach Me</h2>
+            <div class="flex space-x-4">
+                <a href="mailto:fariducer@gmail.com" target="_blank" class="text-gray-600 hover:text-blue-600">
+                    <img src="assets/image/envelope-solid.svg" alt="Email" class="w-6 h-6">
+                </a>
+                <a href="https://instagram.com/faathrd/" target="_blank" class="text-gray-600 hover:text-blue-600">
+                    <img src="assets/image/instagram.svg" alt="Instagram" class="w-6 h-6">
+                </a>
+                <a href="https://github.com/faridnotfnd/" target="_blank" class="text-gray-600 hover:text-blue-600">
+                    <img src="assets/image/github.svg" alt="GitHub" class="w-6 h-6">
+                </a>
+            </div>
         </div>
     </div>
-    <div class="about">
-        <h2>About Me</h2>
-        <p>I'm a student at smkn 1 banjar, majoring in Software Engineering. Passionate about technology,
-            I explore programming, software development, and problem-solving. I believe in facing challesges as
-            opportunities for growth, striving for excellence in both academics and personal development.</p>
-    </div>
-    <div class="project">
-        <h2>What I have done before?</h2>
-        <ul>
-            <li><a href="assets/Project/Project1/index.html" target="_blank">Made my first project at school.</a></li>
-            <li><a href="assets/Project/Project2/index.html" target="_blank">Making my second project at school.</a>
-            </li>
-            <li><a href="https://freshmartf.netlify.app/" target="_blank">Created a mini website for a fruit and
-                    vegetable shop.</a></li>
-            <li><a href="assets/Project/Facebook.pdf" target="_blank">Made a wireframe of the Facebook application.</a>
-            </li>
-            <li><a href="assets/Project/FaridSidik.pdf" target="_blank">Built a hotel booking wireframe.</a></li>
-            <li><a href="https://majalahdinding.000webhostapp.com/" target="_blank">Creating an digital bulletin board.</a></li>
-        </ul>
-    </div>
-    <div class="contact">
-        <h2>Reach Me </h2>
-        <a href="mailto:fariducer@gmail.com" target="_blank"><img src="assets/image/envelope-solid.svg" alt=""></a>
-        <a href="https://instagram.com/faathrd/" target="_blank"><img src="assets/image/instagram.svg" alt=""></a>
-        <a href="https://github.com/faridnotfnd/" target="_blank"><img src="assets/image/github.svg" alt=""></a>
-    </div>
-    <footer>
-        <p>&copy; 2023 Farid Sidik, All Rights Reserved.</p>
-    </footer>
 </body>
-
 </html>
